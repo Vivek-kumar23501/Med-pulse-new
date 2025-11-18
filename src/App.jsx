@@ -14,7 +14,7 @@ function App() {
     <div style={{ fontFamily: "'Poppins', sans-serif", minHeight: "100vh" }}>
       <Routes>
         {/* Public Pages */}
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<UserDashboard />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/forgot-password" element={<ForgetPassword />} />
